@@ -94,9 +94,9 @@ client.get(
   {
     hostname,
     port: process.env.NODE_ENV === "development" ? 5000 : null,
-    path: "/sdk/i18n/translations",
+    path: "/sdk/ci/i18n/translations",
     headers: {
-      "X-Luminoso-Sdk-Token": `Bearer ${process.env.SDK_KEY}`,
+      "X-Luminoso-Ci-Token": `Bearer ${process.env.SDK_KEY}`,
     },
   },
   (res) => {
