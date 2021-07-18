@@ -1,0 +1,28 @@
+{
+  "name": "@luminoso/ci-sdk",
+  "version": "0.0.1",
+  "description": "Luminoso continuous integration sdk",
+  "license": "Apache-2.0",
+  "directories": {
+    "i18n": "i18n"
+  },
+  "files": [
+    "i18n",
+    "LICENSE",
+    "CHANGELOG",
+    "README.md"
+  ],
+  "scripts": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuminosoTech/ci-sdk.git"
+  },
+  "author": "Fabrizio Rodin-Miron",
+  "bugs": {
+    "url": "https://github.com/LuminosoTech/ci-sdk/issues"
+  },
+  "homepage": "https://github.com/LuminosoTech/ci-sdk#readme"
+}
