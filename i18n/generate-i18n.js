@@ -15,7 +15,7 @@ var client;
 var hostname;
 
 const devHostName = "localhost";
-const prodHostName = "api.luminoso.tech";
+const prodHostName = "api.luminoso.app";
 
 if (process.env.NODE_ENV === "development") {
   client = http;
