@@ -33,7 +33,7 @@ client.get(
     port: process.env.NODE_ENV === "development" ? 5000 : null,
     path: "/sdk/ci/i18n/translations/keys",
     headers: {
-      "X-Luminoso-Ci-Token": `Bearer ${process.env.SDK_KEY}`,
+      "X-Luminoso-Ci-Token": `Bearer ${process.env.I18N_SDK_KEY}`,
     },
   },
   (res) => {
@@ -96,7 +96,7 @@ client.get(
     port: process.env.NODE_ENV === "development" ? 5000 : null,
     path: "/sdk/ci/i18n/translations",
     headers: {
-      "X-Luminoso-Ci-Token": `Bearer ${process.env.SDK_KEY}`,
+      "X-Luminoso-Ci-Token": `Bearer ${process.env.I18N_SDK_KEY}`,
     },
   },
   (res) => {
